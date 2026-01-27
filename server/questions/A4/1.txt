@@ -1,0 +1,13 @@
+// String Length Calculation (with A4 bug)
+#include <stdio.h>
+
+int string_length(char str[]) {
+    return stringlen(str);
+}
+
+int main() {
+    char str[100];
+    scanf("%s", str);
+    printf("%d", string_length(str));
+    return 0;
+}

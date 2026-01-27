@@ -1,0 +1,18 @@
+// Check if a String is a Palindrome 
+#include <stdio.h>
+
+int is_palindrome(char str[]) {
+    return string_reverse_compare(str);
+}
+
+int main() {
+    char str[100];
+    scanf("%s", str);
+
+    if(is_palindrome(str))
+        printf("YES");
+    else
+        printf("NO");
+
+    return 0;
+}
