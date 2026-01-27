@@ -1,0 +1,44 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E4334D;
+  padding: 15px 10px;
+}
+
+.navbar .logo {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar .research-link {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar .rules-link {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.navbar .research-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .navbar .logo {
+    font-size: 20px;
+  }
+}
