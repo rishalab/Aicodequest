@@ -167,3 +167,6 @@ The AI uses **Groq's LLM API** with specialized prompts per difficulty level:
 **Parameters:** Temperature 0.2 (deterministic), Timeout 15s
 
 **Constraints:** Output only modified code, no explanations, no markdown, no comments about changes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
